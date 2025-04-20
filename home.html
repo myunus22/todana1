@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Todana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body class="bg-secondary">
+    <div class="container border mb-4 mt-4 rounded-3 shadow bg-white">
+      <!-- Menu -->
+      <nav class="d-md-flex p-4">
+        <div><h1><i class="bi bi-shop me-2"></i>todana</h1></div>
+        <div class="ms-auto my-auto">
+          <ul class="list-inline m-0">
+            <li class="list-inline-item mx-md-3">
+              <a href="home.html" class="text-decoration-none text-dark fw-bold">
+                <i class="bi bi-house-door me-1"></i>Home
+              </a>
+            </li>
+            <li class="list-inline-item mx-md-3">
+              <a href="index.html" class="text-decoration-none text-dark fw-bold">
+                <i class="bi bi-box-seam me-1"></i>Produk Kami
+              </a>
+            </li>
+            <li class="list-inline-item mx-md-3">
+              <a href="tentang_kami.html" class="text-decoration-none text-dark fw-bold">
+                <i class="bi bi-info-circle me-1"></i>Tentang Kami
+              </a>
+            </li>
+            <li class="list-inline-item mx-md-3">
+              <a href="cara_order.html" class="text-decoration-none text-dark fw-bold">
+                <i class="bi bi-bag-check me-1"></i>Cara Order
+              </a>
+            </li>
+            <li class="list-inline-item mx-md-3">
+              <a href="profil.html" class="text-decoration-none text-dark fw-bold">
+                <i class="bi bi-person-circle me-1"></i>Profil
+              </a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <!-- Banner -->
+      <div class="px-4 mb-4">
+        <img src="banner.png" class="w-100 rounded-3" alt="Banner">
+      </div>
+
+
+
+     <!-- Produk Kami -->
+<h3 id="produk" class="text-center">Our Collection</h3>
+<div class="text-center w-50 mx-auto fw-light mb-4">Koleksi buku terbaik untuk kamu yang suka membaca!</div>
+
+<div class="px-4 mb-5">
+  <div class="d-flex overflow-auto gap-4" id="produkList">
+    <!-- Produk 1 -->
+    <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku1.jpg" class="card-img-top" alt="Buku Filsafat">
+      <div class="card-body">
+        <h5 class="card-title">Filsafat Hidup</h5>
+        <p class="card-text">Pandangan hidup dari para pemikir hebat.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6282174418474?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+
+    <!-- Produk 2 -->
+    <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku2.jpg" class="card-img-top" alt="Buku Sejarah">
+      <div class="card-body">
+        <h5 class="card-title">Jejak Sejarah</h5>
+        <p class="card-text">Menelusuri peradaban dunia masa lalu.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+
+    <!-- Produk 3 -->
+    <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku3.jpg" class="card-img-top" alt="Buku Motivasi">
+      <div class="card-body">
+        <h5 class="card-title">Bangkit!</h5>
+        <p class="card-text">Buku motivasi untuk hari-hari sulit.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+
+    <!-- Produk 4 -->
+    <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku4.jpg" class="card-img-top" alt="Buku Novel">
+      <div class="card-body">
+        <h5 class="card-title">Langit Senja</h5>
+        <p class="card-text">Novel romansa dengan nuansa nostalgia.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+
+    <!-- Produk 5 -->
+    <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku5.jpg" class="card-img-top" alt="Buku Sains">
+      <div class="card-body">
+        <h5 class="card-title">Sains untuk Semua</h5>
+        <p class="card-text">Pengetahuan ilmiah dengan bahasa sederhana.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+
+    <!-- Produk 6 -->
+    <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku6.jpg" class="card-img-top" alt="Buku Teknologi">
+      <div class="card-body">
+        <h5 class="card-title">Teknologi Masa Depan</h5>
+        <p class="card-text">Eksplorasi AI dan inovasi digital terkini.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+     <!-- Produk 7 -->
+     <div class="card shadow produk" style="min-width: 200px;">
+        <img src="buku1.jpg" class="card-img-top" alt="Buku Filsafat">
+        <div class="card-body">
+          <h5 class="card-title">Filsafat Hidup</h5>
+          <p class="card-text">Pandangan hidup dari para pemikir hebat.</p>
+        </div>
+        <div class="card-footer d-md-flex flex-column">
+          <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+          
+          <div class="menu-beli mt-2 d-none d-flex flex-column">
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+            <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+          </div>
+          <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+        </div>
+      </div>
+  
+      <!-- Produk 8 -->
+      <div class="card shadow produk" style="min-width: 200px;">
+        <img src="buku2.jpg" class="card-img-top" alt="Buku Sejarah">
+        <div class="card-body">
+          <h5 class="card-title">Jejak Sejarah</h5>
+          <p class="card-text">Menelusuri peradaban dunia masa lalu.</p>
+        </div>
+        <div class="card-footer d-md-flex flex-column">
+          <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+          
+          <div class="menu-beli mt-2 d-none d-flex flex-column">
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+            <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+          </div>
+          <span class="text-danger fw-bold text-center mt-2">Rp.100.000,00</span>
+        </div>
+      </div>
+  
+      <!-- Produk 9 -->
+      <div class="card shadow produk" style="min-width: 200px;">
+        <img src="buku3.jpg" class="card-img-top" alt="Buku Motivasi">
+        <div class="card-body">
+          <h5 class="card-title">Bangkit!</h5>
+          <p class="card-text">Buku motivasi untuk hari-hari sulit.</p>
+        </div>
+        <div class="card-footer d-md-flex flex-column">
+          <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+          
+          <div class="menu-beli mt-2 d-none d-flex flex-column">
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+            <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+          </div>
+          <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+        </div>
+      </div>
+  
+      <!-- Produk 10 -->
+      <div class="card shadow produk" style="min-width: 200px;">
+        <img src="buku4.jpg" class="card-img-top" alt="Buku Novel">
+        <div class="card-body">
+          <h5 class="card-title">Langit Senja2</h5>
+          <p class="card-text">Novel romansa dengan nuansa nostalgia.</p>
+        </div>
+        <div class="card-footer d-md-flex flex-column">
+          <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+          
+          <div class="menu-beli mt-2 d-none d-flex flex-column">
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+            <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+          </div>
+          <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+        </div>
+      </div>
+  
+      <!-- Produk 12 -->
+      <div class="card shadow produk" style="min-width: 200px;">
+        <img src="buku5.jpg" class="card-img-top" alt="Buku Sains">
+        <div class="card-body">
+          <h5 class="card-title">Sains untuk Semua</h5>
+          <p class="card-text">Pengetahuan ilmiah dengan bahasa sederhana.</p>
+        </div>
+        <div class="card-footer d-md-flex flex-column">
+          <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+          
+          <div class="menu-beli mt-2 d-none d-flex flex-column">
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+            <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+          </div>
+          <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+        </div>
+      </div>
+  
+      <!-- Produk 13 -->
+      <div class="card shadow produk" style="min-width: 200px;">
+        <img src="buku6.jpg" class="card-img-top" alt="Buku Teknologi">
+        <div class="card-body">
+          <h5 class="card-title">Teknologi Masa Depan</h5>
+          <p class="card-text">Eksplorasi AI dan inovasi digital terkini.</p>
+        </div>
+        <div class="card-footer d-md-flex flex-column">
+          <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+          
+          <div class="menu-beli mt-2 d-none d-flex flex-column">
+            <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+            <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+          </div>
+          <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+        </div>
+      </div>
+  </div>
+</div>
+ <!-- Produk Kami -->
+ <h3 id="produk" class="text-center">Our Collection</h3>
+ <div class="text-center w-50 mx-auto fw-light mb-4">Koleksi buku terbaik untuk kamu yang suka membaca!</div>
+ 
+ <div class="px-4 mb-5">
+   <div class="d-flex overflow-auto gap-4" id="produkList">
+     <!-- Produk 14 -->
+     <div class="card shadow produk" style="min-width: 200px;">
+       <img src="buku1.jpg" class="card-img-top" alt="Buku Filsafat">
+       <div class="card-body">
+         <h5 class="card-title">Filsafat Hidup</h5>
+         <p class="card-text">Pandangan hidup dari para pemikir hebat.</p>
+       </div>
+       <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+     </div>
+ 
+     <!-- Produk 15 -->
+     <div class="card shadow produk" style="min-width: 200px;">
+       <img src="buku2.jpg" class="card-img-top" alt="Buku Sejarah">
+       <div class="card-body">
+         <h5 class="card-title">Jejak Sejarah</h5>
+         <p class="card-text">Menelusuri peradaban dunia masa lalu.</p>
+       </div>
+       <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+     </div>
+ 
+     <!-- Produk 16 -->
+     <div class="card shadow produk" style="min-width: 200px;">
+       <img src="buku3.jpg" class="card-img-top" alt="Buku Motivasi">
+       <div class="card-body">
+         <h5 class="card-title">Bangkit!</h5>
+         <p class="card-text">Buku motivasi untuk hari-hari sulit.</p>
+       </div>
+       <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+     </div>
+ 
+     <!-- Produk 17 -->
+     <div class="card shadow produk" style="min-width: 200px;">
+       <img src="buku4.jpg" class="card-img-top" alt="Buku Novel">
+       <div class="card-body">
+         <h5 class="card-title">Langit Senja</h5>
+         <p class="card-text">Novel romansa dengan nuansa nostalgia.</p>
+       </div>
+       <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+     </div>
+ 
+     <!-- Produk 18 -->
+     <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku2.jpg" class="card-img-top" alt="Buku Filsafat">
+      <div class="card-body">
+        <h5 class="card-title">Filsafat Hidup</h5>
+        <p class="card-text">Pandangan hidup dari para pemikir hebat.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+     <!--produk19-->
+     <div class="card shadow produk" style="min-width: 200px;">
+      <img src="buku1.jpg" class="card-img-top" alt="Buku Filsafat">
+      <div class="card-body">
+        <h5 class="card-title">Filsafat Hidup</h5>
+        <p class="card-text">Pandangan hidup dari para pemikir hebat.</p>
+      </div>
+      <div class="card-footer d-md-flex flex-column">
+        <button class="btn btn-sm btn-primary btn-detail">Detail</button>
+        
+        <div class="menu-beli mt-2 d-none d-flex flex-column">
+          <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20beli%20buku%20Filsafat%20Hidup" class="btn btn-success btn-sm mb-2">Beli Buku</a>
+          <button class="btn btn-danger btn-sm btn-batal">Batal</button>
+        </div>
+        <span class="text-danger fw-bold text-center mt-2">Rp.70.000,00</span>
+      </div>
+    </div>
+    
+    
+
+</div>
+
+   </div>
+ </div>
+
+      <!-- Footer -->
+      <div class="text-center p-4 border-top">&copy;2025 todana - toko online sederhana</div>
+    </div>
+
+    <script>
+      // Fungsi pencarian
+      const searchInput = document.getElementById("searchInput");
+      searchInput.addEventListener("keyup", function() {
+        const keyword = searchInput.value.toLowerCase();
+        const produk = document.querySelectorAll(".produk");
+        produk.forEach(function(item) {
+          const text = item.innerText.toLowerCase();
+          item.style.display = text.includes(keyword) ? "block" : "none";
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const detailButtons = document.querySelectorAll('.btn-primary');
+        detailButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const card = button.closest('.card');
+            const menuBeli = card.querySelector('.menu-beli');
+      
+            // Tutup menu beli lain
+            document.querySelectorAll('.menu-beli').forEach(m => m.classList.add('d-none'));
+      
+            // Tampilkan menu beli pada card yang diklik
+            menuBeli.classList.toggle('d-none');
+          });
+        });
+      
+        
+        
+        
+  document.querySelectorAll('.btn-detail').forEach((btnDetail) => {
+    btnDetail.addEventListener('click', function () {
+      const menuBeli = this.nextElementSibling;
+      menuBeli.classList.remove('d-none');
+      this.classList.add('d-none');
+    });
+  });
+
+  document.querySelectorAll('.btn-batal').forEach((btnBatal) => {
+    btnBatal.addEventListener('click', function () {
+      const menuBeli = this.parentElement;
+      const btnDetail = menuBeli.previousElementSibling;
+      menuBeli.classList.add('d-none');
+      btnDetail.classList.remove('d-none');
+    });
+  });
+
+
+
+
+      </script
+      
+  </body>
+</html>
